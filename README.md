@@ -6,7 +6,7 @@ Now, the marketing & sales team wants to identify the leads who are more likely 
 
 Now, as a data scientist, your task at hand is to predict the propensity to buy a product based on the user's past activities and user level information.
 
-Approach
+## Approach
 Initially the data was explored using EDA. The dataset was imbalanced with a class ration 95:5. Also most of the variables were categorical in the data. 
 Date columns were extracted as year, month, week. Year was not relevant so only week was considered.
 Missing vales were treated with constant imputation.
@@ -20,3 +20,6 @@ Logistic Regression, Random Forest, gradient Boosting and Artificial Neural netw
 Logistic Regression, Random Forest, boosting algorithms gave almost equal performance but ANN gave much better performance.
 ANN – There were three hidden layers of size 16/32/5. Dropout layers were also added to avoid overfitting.
 
+## Rank
+#### Public Leaderboard  :  49
+#### Private Leaderboard : 266
